@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+h1 {
+  color: white;
+text-align: center;
+}
+p {
+  color: white;
+text-align: center;
+}
+div.scroll-container {
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 0px;
+}
+
+a:link, a:visited {
+  background-color: gray;
+  color: black;
+  border: 2px gray;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Abel;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
